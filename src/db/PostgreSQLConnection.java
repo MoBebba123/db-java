@@ -21,7 +21,7 @@ public class PostgreSQLConnection {
     // Lade die .env-Datei
     public static Dotenv dotenv = Dotenv.load();
 
-    /** Hostname oder IP-Adresse des PostgreSQL-Servers. */
+    /** Hostname des PostgreSQL-Servers. */
     private static final String HOST = dotenv.get("POSTGRES_HOST");
 
     /** Portnummer des PostgreSQL-Servers. */
